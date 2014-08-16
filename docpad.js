@@ -36,7 +36,7 @@ module.exports = {
     site: {
       theme: "meetus",
       url: "http://meetus.github.io",
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: "UA-53892061-1"
     },
 
     // Active sections on the website
