@@ -13,7 +13,7 @@ module.exports = {
       description: "Evento criado por programadores para programadores com objectivo de aproximar os desenvolvedores angolanos.",
       date: "13 de Setembro",
       // If your event is free, just comment this line
-      price: "Gratís",
+      price: "Grátis",
       venue: "IMETRO",
       address: "Rua da Total, Luanda, Angola",
       city: "Belas",
@@ -151,9 +151,9 @@ module.exports = {
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "AEISPTEC",
+        logo: "themes/yellow-swan/img/aeisptec.jpg",
+        url: "https://www.facebook.com/AEISPTEC"
       }
     ],
 

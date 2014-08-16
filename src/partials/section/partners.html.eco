@@ -9,7 +9,7 @@
   </li>
 <% end %>
   <li class="partner-item">
-    <a class="partner-logo partner-link partner-call" href="#">
+    <a class="partner-logo partner-link partner-call" href="#contact">
     	<img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
     </a>
   </li>

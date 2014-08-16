@@ -648,11 +648,14 @@ nav {
   /* speakers */
   .speakers-item {
     min-height: 70px;
-    padding-left: 70px;
+    padding: 10px 0 0 70px;
   }
   .speaker-photo {
     width: 50px;
     height: 50px;
+  }
+  .us-photo {
+    top: 18px;
   }
   .speech-title {
     padding-top: 0;
@@ -864,19 +867,22 @@ nav {
 /* =============================================================================
    CONTACT
    ========================================================================== */
-.form input[type=text],
-.form input[type=email],
-.form textarea {
+.wufoo input[type=text],
+.wufoo input[type=email],
+.wufoo textarea {
   color: #777;
   border: 1px solid #e7e7e7;
   background: #fff;
   border-radius: 4px;
 }
-.form input[type=text]:focus,
-.form input[type=email]:focus,
-.form textarea:focus {
+.wufoo input[type=text]:focus,
+.wufoo input[type=email]:focus,
+.wufoo textarea:focus {
   border-color: #aaa;
   outline: 0;
+}
+header#header {
+  display: none;
 }
 /* =============================================================================
    FOOTER

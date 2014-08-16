@@ -10,4 +10,4 @@
     sudo npm install
 
 3 - Iniciar o servidor
-    npm run watch
+    npm run watcht
