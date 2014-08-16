@@ -34,7 +34,7 @@ module.exports = {
 
     // Site info
     site: {
-      theme: "yellow-swan",
+      theme: "meetus",
       url: "http://meetus.github.io",
       googleanalytics: "UA-33656081-1"
     },
@@ -71,7 +71,7 @@ module.exports = {
       },
       {
         name: "Sousa Gaspar",
-        photo: "themes/yellow-swan/img/sousa.jpg",
+        photo: "themes/meetus/img/sousa.jpg",
         bio: "Engenheiro da computação, evangelista da linguagem PHP.",
         company: "SGenial",
         link: {
@@ -86,7 +86,7 @@ module.exports = {
       },
       {
         name: "Keven Chantre",
-        photo: "themes/yellow-swan/img/keven.jpg",
+        photo: "themes/meetus/img/keven.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Interactive Load",
         link: {
@@ -105,7 +105,7 @@ module.exports = {
       },
       {
         name: "Mandela Morais",
-        photo: "themes/yellow-swan/img/mandela.jpg",
+        photo: "themes/meetus/img/mandela.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Mandoaval",
         link: {
@@ -124,7 +124,7 @@ module.exports = {
       },
       {
         name: "Patrício dos Santos",
-        photo: "themes/yellow-swan/img/patricio.jpg",
+        photo: "themes/meetus/img/patricio.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "ITELnet S.A.",
         link: {
@@ -143,7 +143,7 @@ module.exports = {
     sponsors: [
       {
         name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
+        logo: "themes/meetus/img/sponsor.png",
         url: "http://eventick.com.br"
       }
     ],
@@ -152,7 +152,7 @@ module.exports = {
     partners: [
       {
         name: "AEISPTEC",
-        logo: "themes/yellow-swan/img/aeisptec.jpg",
+        logo: "themes/meetus/img/aeisptec.jpg",
         url: "https://www.facebook.com/AEISPTEC"
       }
     ],
