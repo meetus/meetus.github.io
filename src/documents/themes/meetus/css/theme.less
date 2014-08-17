@@ -176,6 +176,16 @@ footer .info a{
   color: #c9b400;
 }
 
+footer .infoLeft{
+  float: left;
+}
+
+footer .infoRight{
+  float: right;
+  margin-left: 10px;
+}
+
+
 /* =============================================================================
    Media Queries
    ========================================================================== */
@@ -185,6 +195,26 @@ footer .info a{
     background-size: auto 100%;
   }
 }
+
+@media only screen and (max-width : 540px) {
+  footer{
+    height: 146px;
+  }
+
+  footer .logoBottom {
+    margin: 30px 10px 0 0;
+  }
+
+  footer .infoLeft {
+    float: none;
+  }
+
+  footer .infoRight {
+    float: none;
+    margin-left: 0;
+  }
+}
+
 @media only screen and (max-width : 480px) {
   /* speakers */
   .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
