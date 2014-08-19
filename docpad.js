@@ -67,7 +67,8 @@ module.exports = {
     schedule: [
       {
         name: "Apresentação",
-        time: "14h00"
+        time: "14h00",
+        title: "Apresentação do evento por Jo Cognitivo"
       },
       {
         name: "Sousa Gaspar",
@@ -94,19 +95,15 @@ module.exports = {
           text: "@kevenchantre"
         },
         presentation: {
-          title: "Desenvolvimento de jogos eletrônicos.",
-          description: "-",
+          title: "O processo de desenvolvimento de jogos electrónicos",
+          description: "Vamos aprender técnicas e ver como são desenvolvidos os jogos electrónicos, utilizando como exemplo jogos desenvolvidos pela Interactive Load.",
           time: "15h50"
         }
       },
       {
-        name: "Lunch",
-        time: "12h00"
-      },
-      {
         name: "Mandela Morais",
         photo: "themes/meetus/img/mandela.jpg",
-        bio: "-",
+        bio: "Apaixonado por Web Design, formado em Redes no Hatfield Business College da Africa do Sul e focado no engradecimento do E-Commerce, E-Marketing e Infrastrutura para ISP angolanos.",
         company: "MandOsval",
         link: {
           href: "https://www.facebook.com/mandosvalceo",
@@ -117,10 +114,6 @@ module.exports = {
           description: "-",
           time: "16h40"
         }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
       },
       {
         name: "Patrício dos Santos",
