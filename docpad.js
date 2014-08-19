@@ -80,14 +80,14 @@ module.exports = {
         },
         presentation: {
           title: "ORM com PHP do jeito certo.",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          description: "-",
           time: "15h00"
         }
       },
       {
         name: "Keven Chantre",
         photo: "themes/meetus/img/keven.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "Gamer e game dev, amante da ideologia indie, fascinado por química, astronomia e física quântica. Fundador da startup de desenvolvimento de jogos Interactive Load, co-organizador do AAC 2014",
         company: "Interactive Load",
         link: {
           href: "http://twitter.com/kevenchantre",
@@ -95,7 +95,7 @@ module.exports = {
         },
         presentation: {
           title: "Desenvolvimento de jogos eletrônicos.",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          description: "-",
           time: "15h50"
         }
       },
@@ -106,7 +106,7 @@ module.exports = {
       {
         name: "Mandela Morais",
         photo: "themes/meetus/img/mandela.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "-",
         company: "MandOsval",
         link: {
           href: "https://www.facebook.com/mandosvalceo",
@@ -114,7 +114,7 @@ module.exports = {
         },
         presentation: {
           title: "E-Marketing, E-Commerce e Gestão de projectos.",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          description: "-",
           time: "16h40"
         }
       },
@@ -125,7 +125,7 @@ module.exports = {
       {
         name: "Patrício dos Santos",
         photo: "themes/meetus/img/patricio.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "-",
         company: "ITELnet S.A.",
         link: {
           href: "http://www.patriciodossantos.net/",
@@ -133,7 +133,7 @@ module.exports = {
         },
         presentation: {
           title: "Git - A ferramenta indispensável para qualquer desenvolvedor.",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          description: "O versionamento de código tornou-se tão fundamental no mundo de desenvolvimento de software que hoje é impensável trabalhar em multiplos projectos ou em um grupo sem a adoção desta prática. O Git é uma ferramenta que auxilia o processo de versionamento de códigos.",
           time: "17h30"
         }
       }
