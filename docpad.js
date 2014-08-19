@@ -47,9 +47,9 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      'sponsors',
-      'partners',
-      'contact'
+      //'sponsors'
+      'partners'
+      //'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -107,7 +107,7 @@ module.exports = {
         name: "Mandela Morais",
         photo: "themes/meetus/img/mandela.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Mandoaval",
+        company: "MandOsval",
         link: {
           href: "https://www.facebook.com/mandosvalceo",
           text: "fb.com/mandosvalceo"
@@ -154,6 +154,11 @@ module.exports = {
         name: "AEISPTEC",
         logo: "themes/meetus/img/aeisptec.jpg",
         url: "https://www.facebook.com/AEISPTEC"
+      },
+      {
+        name: "ADEIMA",
+        logo: "themes/meetus/img/adeima.jpg",
+        url: "https://www.facebook.com/pages/Associa%C3%A7%C3%A3o-dos-Estudades-Imetro-Adeima/166592990192970"
       }
     ],
 
