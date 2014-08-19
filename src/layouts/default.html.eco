@@ -49,8 +49,14 @@
           <img src="themes/meetus/img/logo.png" alt="logotipo_bottom">
         </div>
         <div class="info">
-          <p>Logotipo por: <a href="https://www.facebook.com/sousa.dgaspar">Sousa Gaspar</a><br>
-             Desenvolvido por <a href="http://flowck.github.io">Flowck II.</p>
+          <div class="infoLeft">
+            <p>Logotipo por: <a href="https://www.facebook.com/sousa.dgaspar">Sousa Gaspar</a> <br>
+             Desenvolvido por <a href="http://flowck.github.io">Flowck II.</a></p>  
+          </div>
+          <div class="infoRight">
+            <p>Telefones: 916 349 515 . 930 686 545 . 924 358 365<br>
+             Email: <a href="mailto:meet.us.angola@gmail.com">meet.us.angola@gmail.com</a></p>
+          </div>
         </div>
       </div>
     </footer>
