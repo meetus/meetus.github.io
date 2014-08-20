@@ -73,15 +73,15 @@ module.exports = {
       {
         name: "Sousa Gaspar",
         photo: "themes/meetus/img/sousa.jpg",
-        bio: "Engenheiro da computação, evangelista da linguagem PHP.",
+        bio: "Engenheiro da computação, atua como Desenvolvedor na http://SGenial.com.",
         company: "SGenial",
         link: {
-          href: "https://www.facebook.com/sousa.dgaspar",
-          text: "fb.com/sousa.dgaspar"
+          href: "mailto:sousa.gaspar@sgenial.com",
+          text: "@email"
         },
         presentation: {
           title: "ORM com PHP do jeito certo.",
-          description: "-",
+          description: "Que tal usar orientação a objectos em PHP para acessar e manipular dados do seu banco de dados relacional? Estabelecer correctamente a relação entre o modelo de objectos e o de dados é um desafio que frequentemente quebra a cabeça de muitos desenvolvedores, pois não raro embutir SQL no código gera confusão e dificulta a manutenção. Esta palestra vai lhe ajudar a se familiarizar com o conceito de ORM e conhecer as ferramentas e técnicas disponíveis para implementar o Mapeamento Objecto Relacional do jeito certo.",
           time: "15h00"
         }
       },
@@ -118,7 +118,7 @@ module.exports = {
       {
         name: "Patrício dos Santos",
         photo: "themes/meetus/img/patricio.jpg",
-        bio: "-",
+        bio: "Estudante de Engenharia Informática atua profissionalmente como Programador/Desenvolvedor desde 2008. Trabalha com C# (para desenvolvimento Desktop), PHP e Ruby on Rails para Devenvolvimento Web. Nos últimos tempos tem dado uma vista de olhos no Java juntamente com o desenvolvimento mobile em Android e um pouco de Ajax e JQuery. Sempre que pode, também trabalha com infra. Servidores Linux e Windows (instalação, configuarção e manutenção).",
         company: "ITELnet S.A.",
         link: {
           href: "http://www.patriciodossantos.net/",
