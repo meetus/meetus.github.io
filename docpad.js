@@ -111,7 +111,7 @@ module.exports = {
         },
         presentation: {
           title: "E-Marketing, E-Commerce e Gestão de projectos.",
-          description: "-",
+          description: "",
           time: "16h40"
         }
       },
