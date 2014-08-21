@@ -14,7 +14,7 @@ module.exports = {
       date: "13 de Setembro",
       // If your event is free, just comment this line
       price: "Grátis",
-      venue: "IMETRO",
+      venue: "auditório da IMETRO",
       address: "Rua da Total, Luanda, Angola",
       city: "Belas",
       state: "Morro Bento"
@@ -47,7 +47,7 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      //'sponsors'
+      'sponsors',
       'partners'
       //'contact'
     ],
@@ -58,7 +58,7 @@ module.exports = {
       location: "LOCALIZAÇÃO",
       speakers: "ORADORES",
       schedule: "PROGRAMA",
-      sponsors: "APOIOS",
+      sponsors: "PATROCÍNIOS",
       partners: "PARCEIROS",
       contact: "CONTACTOS"
     },
@@ -67,7 +67,7 @@ module.exports = {
     schedule: [
       {
         name: "Apresentação",
-        time: "14h00",
+        time: "13h00",
         title: "Apresentação do evento por Jo Cognitivo"
       },
       {
@@ -82,7 +82,22 @@ module.exports = {
         presentation: {
           title: "ORM com PHP do jeito certo.",
           description: "Que tal usar orientação a objectos em PHP para acessar e manipular dados do seu banco de dados relacional? Estabelecer correctamente a relação entre o modelo de objectos e o de dados é um desafio que frequentemente quebra a cabeça de muitos desenvolvedores, pois não raro embutir SQL no código gera confusão e dificulta a manutenção. Esta palestra vai lhe ajudar a se familiarizar com o conceito de ORM e conhecer as ferramentas e técnicas disponíveis para implementar o Mapeamento Objecto Relacional do jeito certo.",
-          time: "15h00"
+          time: "13h20"
+        }
+      },
+      {
+        name: "Dizandro Norton",
+        photo: "themes/meetus/img/dizandro.jpg",
+        bio: "Programador, investigador e professor em Ciência da Computação na UAN. É também o organizador do Google Developers Group de Luanda (GDG Luanda). Além disso, Dizando é empreendedor e participou no programa para jovens lideres africanos organizado pelo governo americano (YALI 2014).",
+        company: "",
+        link: {
+          href: "http://dizan.do",
+          text: "www"
+        },
+        presentation: {
+          title: "Comunidade de desenvolvedores",
+          description: "Esta palestra visa realçar a importância da criação de ecossistemas fortes de desenvolvedores/inovadores angolanos para a resolução de problems locais, e fomentar a sua participação activa em iniciativas relevantes para a comunidade. Pretende-se também apresentar as oportunidades que existem e podem existir para as comunidades de desenvolvedores em Angola.",
+          time: "14h20"
         }
       },
       {
@@ -97,7 +112,7 @@ module.exports = {
         presentation: {
           title: "O processo de desenvolvimento de jogos electrónicos",
           description: "Vamos aprender técnicas e ver como são desenvolvidos os jogos electrónicos, utilizando como exemplo jogos desenvolvidos pela Interactive Load.",
-          time: "15h50"
+          time: "15h20"
         }
       },
       {
@@ -112,7 +127,7 @@ module.exports = {
         presentation: {
           title: "E-Marketing, E-Commerce e Gestão de projectos.",
           description: "",
-          time: "16h40"
+          time: "16h20"
         }
       },
       {
@@ -127,7 +142,7 @@ module.exports = {
         presentation: {
           title: "Git - A ferramenta indispensável para qualquer desenvolvedor.",
           description: "O versionamento de código tornou-se tão fundamental no mundo de desenvolvimento de software que hoje é impensável trabalhar em multiplos projectos ou em um grupo sem a adoção desta prática. O Git é uma ferramenta que auxilia o processo de versionamento de códigos.",
-          time: "17h30"
+          time: "17h20"
         }
       }
     ],
@@ -135,9 +150,9 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/meetus/img/sponsor.png",
-        url: "http://eventick.com.br"
+        name: "NgolaIT",
+        logo: "themes/meetus/img/ngolait.jpg",
+        url: "http://www.ngoalit.co.ao"
       }
     ],
 
@@ -152,6 +167,16 @@ module.exports = {
         name: "ADEIMA",
         logo: "themes/meetus/img/adeima.jpg",
         url: "https://www.facebook.com/pages/Associa%C3%A7%C3%A3o-dos-Estudades-Imetro-Adeima/166592990192970"
+      },
+      {
+        name: "AngoDev",
+        logo: "themes/meetus/img/angodev.jpg",
+        url: "http://www.angodev.com/"
+      },
+      {
+        name: "GDG Luanda",
+        logo: "themes/meetus/img/gdgluanda.jpg",
+        url: "http://gdgluanda.org"
       }
     ],
 
