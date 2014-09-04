@@ -152,7 +152,7 @@ module.exports = {
       {
         name: "NgolaIT",
         logo: "themes/meetus/img/ngolait.jpg",
-        url: "http://www.ngoalit.co.ao"
+        url: "http://www.ngolait.co.ao"
       }
     ],
 
