@@ -14,5 +14,4 @@
 
 3 - Iniciar o servidor
 
-    npm run watcht
-    
+    npm run watch   
