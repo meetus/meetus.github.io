@@ -50,7 +50,11 @@
         </div>
         <div class="info">
           <div class="infoLeft">
+<<<<<<< HEAD
             <p>Projecto gráfico por: <a href="https://www.facebook.com/sousa.dgaspar">Sousa Gaspar</a> <br>
+=======
+            <p>Gráficos por: <a href="https://www.facebook.com/sousa.dgaspar">Sousa Gaspar</a> <br>
+>>>>>>> 01a3f40637f4c42586886613988628bd2ad1eada
              Desenvolvido por <a href="http://flowck.github.io">Flowck II.</a></p>  
           </div>
           <div class="infoRight">
