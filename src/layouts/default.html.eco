@@ -16,7 +16,7 @@
   <meta property="og:url" content="<%= @site.url %>">
   <meta property="og:title" content="<%= @conf.name %>">
   <meta property="og:description" content="<%= @conf.description %>">
-  <meta property="og:image" content="<%= @getUrl() %>/<%= @getTheme() %>/img/badge.jpg">
+  <meta property="og:image" content="<%= @getUrl() %>/<%= @getTheme() %>/img/logo.png">
   <!-- / FACEBOOK -->
 
   <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
@@ -50,7 +50,7 @@
         </div>
         <div class="info">
           <div class="infoLeft">
-            <p>Logotipo por: <a href="https://www.facebook.com/sousa.dgaspar">Sousa Gaspar</a> <br>
+            <p>Projecto gráfico por: <a href="https://www.facebook.com/sousa.dgaspar">Sousa Gaspar</a> <br>
              Desenvolvido por <a href="http://flowck.github.io">Flowck II.</a></p>  
           </div>
           <div class="infoRight">

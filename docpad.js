@@ -89,7 +89,7 @@ module.exports = {
         name: "Dizandro Norton",
         photo: "themes/meetus/img/dizandro.jpg",
         bio: "Programador, investigador e professor em Ciência da Computação na UAN. É também o organizador do Google Developers Group de Luanda (GDG Luanda). Além disso, Dizando é empreendedor e participou no programa para jovens lideres africanos organizado pelo governo americano (YALI 2014).",
-        company: "",
+        company: "GDG Luanda",
         link: {
           href: "http://dizan.do",
           text: "www"
