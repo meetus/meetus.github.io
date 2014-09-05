@@ -73,7 +73,7 @@ module.exports = {
       {
         name: "Sousa Gaspar",
         photo: "themes/meetus/img/sousa.jpg",
-        bio: "Engenheiro da computação, atua como Desenvolvedor na http://SGenial.com.",
+        bio: "Engenheiro da computação, atua como Desenvolvedor na http://www.SGenial.com.",
         company: "SGenial",
         link: {
           href: "mailto:sousa.gaspar@sgenial.com",
@@ -149,6 +149,11 @@ module.exports = {
 
     // List of Sponsors
     sponsors: [
+      {
+        name: "SendOut",
+        logo: "themes/meetus/img/sendout.png",
+        url: "http://www.sendoutapp.com"
+      },
       {
         name: "NgolaIT",
         logo: "themes/meetus/img/ngolait.jpg",
