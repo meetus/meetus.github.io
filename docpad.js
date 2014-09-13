@@ -13,7 +13,7 @@ module.exports = {
       description: "Evento criado por programadores para programadores com objectivo de aproximar os desenvolvedores angolanos.",
       date: "13 de Setembro",
       // If your event is free, just comment this line
-      price: "Grátis",
+      price: "Realizado",
       venue: "auditório da IMETRO",
       address: "Rua da Total, Luanda, Angola",
       city: "Belas",
@@ -22,10 +22,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    callToAction: {
-        text: "Registro",
+    /*callToAction: {
+        text: "Ver fotos",
         link: "http://www.eventzilla.net/web/event?eventid=2139033228"
-    },
+    },*/
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     /*forkButton: {
