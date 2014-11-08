@@ -11,10 +11,10 @@ module.exports = {
     conf: {
       name: "Meet.us()",
       description: "Evento criado por programadores para programadores com objectivo de aproximar os desenvolvedores angolanos.",
-      date: "13 de Setembro",
+      date: "13 de Dezembro",
       // If your event is free, just comment this line
-      price: "Realizado",
-      venue: "auditório da IMETRO",
+      price: "Gratís",
+      venue: "auditório da SISTEC",
       address: "Rua da Total, Luanda, Angola",
       city: "Belas",
       state: "Morro Bento"
@@ -22,10 +22,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    /*callToAction: {
-        text: "Ver fotos",
+    callToAction: {
+        text: "Quero participar!",
         link: "http://www.eventzilla.net/web/event?eventid=2139033228"
-    },*/
+    },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     /*forkButton: {
@@ -47,6 +47,7 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
+      'realizacao',
       'sponsors',
       'partners'
       //'contact'
@@ -58,98 +59,47 @@ module.exports = {
       location: "LOCALIZAÇÃO",
       speakers: "ORADORES",
       schedule: "PROGRAMA",
+      realizacao: "REALIZAÇÃO",
       sponsors: "PATROCÍNIOS",
-      partners: "PARCEIROS",
-      contact: "CONTACTOS"
+      partners: "PARCEIROS"
+      //contact: "CONTACTOS"
     },
 
     // The entire schedule
     schedule: [
       {
         name: "Apresentação",
-        time: "13h00",
+        time: "09h00",
         title: "Apresentação do evento por Jo Cognitivo"
       },
       {
-        name: "Sousa Gaspar",
-        photo: "themes/meetus/img/sousa.jpg",
-        bio: "Engenheiro da computação, atua como Desenvolvedor na http://www.SGenial.com.",
-        company: "SGenial",
+        name: "Célio Garcia",
+        photo: "themes/meetus/img/celio.png",
+        bio: "27 anos, formado em Engenharia Informática, programador a 10 anos. Responsável pelo departamento de Informática da SAPR e co-fundador da BCCL, Lda. Seu cérebro funciona como um scanner raio-x, não pára de pensar numa solução tecnológica qualquer e procura sempre entender como as coisas são formadas. Apaixonado pela vida, cuida de quem e daquilo que ama. Defende seus ideais e suas teorias. Criador do Dicionário Ngola Yetu, SendOut (Um dos vencedores do AAC 2014), Saldo Online e Kwanza Online.",
+        company: "Instituto do Fomento Empresarial",
         link: {
-          href: "mailto:sousa.gaspar@sgenial.com",
-          text: "@email"
+          href: "cgarcia@celiogarcia.com",
+          text: "email"
         },
         presentation: {
-          title: "ORM com PHP do jeito certo.",
-          description: "Que tal usar orientação a objectos em PHP para acessar e manipular dados do seu banco de dados relacional? Estabelecer correctamente a relação entre o modelo de objectos e o de dados é um desafio que frequentemente quebra a cabeça de muitos desenvolvedores, pois não raro embutir SQL no código gera confusão e dificulta a manutenção. Esta palestra vai lhe ajudar a se familiarizar com o conceito de ORM e conhecer as ferramentas e técnicas disponíveis para implementar o Mapeamento Objecto Relacional do jeito certo.",
-          time: "13h20"
+          title: "Aplicações Móveis Híbridas com Cordova/Phonegap",
+          description: "Já imaginou desenvolver uma aplicação para diversas plataformas como Android, IOS, Symbian OS, Windows Phone e outros com o mesmo código? Achou interessante? Okay, então venha assistir e descobrirá que esse tipo de coisas não acontece apenas em conto de fadas.",
+          time: "09h20"
         }
-      },
+      }
+    ],
+
+    realizacao: [
       {
-        name: "Dizando Norton",
-        photo: "themes/meetus/img/dizandro.jpg",
-        bio: "Programador, investigador e professor em Ciência da Computação na UAN. É também o organizador do Google Developers Group de Luanda (GDG Luanda). Além disso, Dizando é empreendedor e participou no programa para jovens lideres africanos organizado pelo governo americano (YALI 2014).",
-        company: "GDG Luanda",
-        link: {
-          href: "http://dizan.do",
-          text: "www"
-        },
-        presentation: {
-          title: "Comunidade de desenvolvedores",
-          description: "Esta palestra visa realçar a importância da criação de ecossistemas fortes de desenvolvedores/inovadores angolanos para a resolução de problems locais, e fomentar a sua participação activa em iniciativas relevantes para a comunidade. Pretende-se também apresentar as oportunidades que existem e podem existir para as comunidades de desenvolvedores em Angola.",
-          time: "14h20"
-        }
-      },
-      {
-        name: "Keven Chantre",
-        photo: "themes/meetus/img/keven.jpg",
-        bio: "Gamer e game dev, amante da ideologia indie, fascinado por química, astronomia e física quântica. Fundador da startup de desenvolvimento de jogos Interactive Load, co-organizador do AAC 2014",
-        company: "Interactive Load",
-        link: {
-          href: "http://twitter.com/kevenchantre",
-          text: "@kevenchantre"
-        },
-        presentation: {
-          title: "O processo de desenvolvimento de jogos electrónicos",
-          description: "Vamos aprender técnicas e ver como são desenvolvidos os jogos electrónicos, utilizando como exemplo jogos desenvolvidos pela Interactive Load.",
-          time: "15h20"
-        }
-      },
-      {
-        name: "Mandela Morais",
-        photo: "themes/meetus/img/mandela.jpg",
-        bio: "Apaixonado por Web Design, formado em Redes no Hatfield Business College da Africa do Sul e focado no engradecimento do E-Commerce, E-Marketing e Infrastrutura para ISP angolanos.",
-        company: "MandOsval",
-        link: {
-          href: "https://www.facebook.com/mandosvalceo",
-          text: "fb.com/mandosvalceo"
-        },
-        presentation: {
-          title: "E-Marketing, E-Commerce e Gestão de projectos.",
-          description: "",
-          time: "16h20"
-        }
-      },
-      {
-        name: "Patrício dos Santos",
-        photo: "themes/meetus/img/patricio.jpg",
-        bio: "Estudante de Engenharia Informática atua profissionalmente como Programador/Desenvolvedor desde 2008. Trabalha com C# (para desenvolvimento Desktop), PHP e Ruby on Rails para Devenvolvimento Web. Nos últimos tempos tem dado uma vista de olhos no Java juntamente com o desenvolvimento mobile em Android e um pouco de Ajax e JQuery. Sempre que pode, também trabalha com infra. Servidores Linux e Windows (instalação, configuarção e manutenção).",
-        company: "ITELnet S.A.",
-        link: {
-          href: "http://www.patriciodossantos.net/",
-          text: "www"
-        },
-        presentation: {
-          title: "Git - A ferramenta indispensável para qualquer desenvolvedor.",
-          description: "O versionamento de código tornou-se tão fundamental no mundo de desenvolvimento de software que hoje é impensável trabalhar em multiplos projectos ou em um grupo sem a adoção desta prática. O Git é uma ferramenta que auxilia o processo de versionamento de códigos.",
-          time: "17h20"
-        }
+        name: "AngoDev",
+        logo: "themes/meetus/img/angodev.jpg",
+        url: "http://www.angodev.com/"
       }
     ],
 
     // List of Sponsors
     sponsors: [
-      {
+      /*{
         name: "SendOut",
         logo: "themes/meetus/img/sendout.png",
         url: "http://www.sendoutapp.com"
@@ -158,12 +108,12 @@ module.exports = {
         name: "NgolaIT",
         logo: "themes/meetus/img/ngolait.jpg",
         url: "http://www.ngolait.co.ao"
-      }
+      }*/
     ],
 
     // List of Partners
     partners: [
-      {
+      /*{
         name: "AEISPTEC",
         logo: "themes/meetus/img/aeisptec.jpg",
         url: "https://www.facebook.com/AEISPTEC"
@@ -177,7 +127,7 @@ module.exports = {
         name: "AngoDev",
         logo: "themes/meetus/img/angodev.jpg",
         url: "http://www.angodev.com/"
-      },
+      },*/
       {
         name: "GDG Luanda",
         logo: "themes/meetus/img/gdgluanda.jpg",
