@@ -11,20 +11,20 @@ module.exports = {
     conf: {
       name: "Meet.us()",
       description: "Evento criado por programadores para programadores com objectivo de aproximar os desenvolvedores angolanos.",
-      date: "13 de Dezembro",
+      date: "17 de Janeiro",
       // If your event is free, just comment this line
       price: "Gratís",
       venue: "auditório da SISTEC",
-      address: "Rua da Total, Luanda, Angola",
-      city: "Belas",
-      state: "Morro Bento"
+      address: "Largo do ambiente, Luanda, Angola",
+      city: "Ingombota",
+      state: "Luanda"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Quero participar!",
-        link: "http://www.eventzilla.net/web/event?eventid=2139033228"
+        text: "Brevemente",
+        link: "#"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -85,6 +85,36 @@ module.exports = {
           title: "Aplicações Móveis Híbridas com Cordova/Phonegap",
           description: "Já imaginou desenvolver uma aplicação para diversas plataformas como Android, IOS, Symbian OS, Windows Phone e outros com o mesmo código? Achou interessante? Okay, então venha assistir e descobrirá que esse tipo de coisas não acontece apenas em conto de fadas.",
           time: "09h20"
+        }
+      },
+      {
+        name: "Osvaldo Mwanalezi",
+        photo: "themes/meetus/img/osvaldo.jpg",
+        bio: "",
+        company: "",
+        link: {
+          href: "",
+          text: "email"
+        },
+        presentation: {
+          title: "OBS: tema por confirmar.",
+          description: "",
+          time: "10h20"
+        }
+      },
+      {
+        name: "Nakassony Venâncio Bernardo",
+        photo: "themes/meetus/img/nakassony.jpg",
+        bio: "",
+        company: "",
+        link: {
+          href: "",
+          text: "email"
+        },
+        presentation: {
+          title: "OBS: tema por confirmar.",
+          description: "",
+          time: "11h20"
         }
       }
     ],
