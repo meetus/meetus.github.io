@@ -94,7 +94,7 @@ module.exports = {
         company: "",
         link: {
           href: "",
-          text: "email"
+          text: ""
         },
         presentation: {
           title: "OBS: tema por confirmar.",
@@ -109,12 +109,46 @@ module.exports = {
         company: "",
         link: {
           href: "",
-          text: "email"
+          text: ""
         },
         presentation: {
           title: "OBS: tema por confirmar.",
           description: "",
           time: "11h20"
+        }
+      },
+      {
+        name: "Coffee Break",
+        time: "12h20"
+      },
+      {
+        name: "Benone Marcos",
+        photo: "themes/meetus/img/benone.jpeg",
+        bio: "",
+        company: "",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "OBS: tema por confirmar.",
+          description: "",
+          time: "13h00"
+        }
+      },
+      {
+        name: "Dizando Norton",
+        photo: "themes/meetus/img/dizando.jpg",
+        bio: "Programador, investigador e professor de Ciência da Computação na Faculdade de Ciências da UAN. É também o organizador do Google Developers Group de Luanda (GDG Luanda). Além disso, Dizando é empreendedor e esteve recentemente a participar no programa para jovens lideres africanos organizado pelo governo americano (YALI 2014).",
+        company: "",
+        link: {
+          href: "http://dizan.do",
+          text: "www"
+        },
+        presentation: {
+          title: "Programação Automática e Machine Learning com Python e/ou Matlab",
+          description: "",
+          time: "14h00"
         }
       }
     ],
