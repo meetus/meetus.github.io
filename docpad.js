@@ -139,14 +139,14 @@ module.exports = {
       {
         name: "Dizando Norton",
         photo: "themes/meetus/img/dizando.jpg",
-        bio: "Programador, investigador e professor de Ciência da Computação na Faculdade de Ciências da UAN. É também o organizador do Google Developers Group de Luanda (GDG Luanda). Além disso, Dizando é empreendedor e esteve recentemente a participar no programa para jovens lideres africanos organizado pelo governo americano (YALI 2014).",
+        bio: "Programador, investigador e professor de Ciência da Computação na Faculdade de Ciências da UAN. É também co-organizador do Google Developers Group de Luanda (www.gdgluanda.org).",
         company: "",
         link: {
-          href: "http://dizan.do",
+          href: "http://dizando.me",
           text: "www"
         },
         presentation: {
-          title: "Programação Automática e Machine Learning com Python e/ou Matlab",
+          title: "Programação Genética e Machine Learning com Python e/ou Matlab",
           description: "",
           time: "14h00"
         }
