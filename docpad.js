@@ -140,14 +140,14 @@ module.exports = {
         name: "Dizando Norton",
         photo: "themes/meetus/img/dizando.jpg",
         bio: "Programador, investigador e professor de Ciência da Computação na Faculdade de Ciências da UAN. É também co-organizador do Google Developers Group de Luanda (www.gdgluanda.org).",
-        company: "",
+        company: "GDG Luanda, Centro Tecnológico Nacional",
         link: {
           href: "http://dizando.me",
           text: "www"
         },
         presentation: {
           title: "Programação Genética e Machine Learning com Python e/ou Matlab",
-          description: "",
+          description: "A Programação Genética (PG) é uma técnica de Machine Learning (ML) utilizada na resolução de problemas de optimização. Nesta palestra serão apresentados alguns algoritmos de PG e ML para a construção de soluções computacionais inteligentes para problemas locais com exemplos em Matlab e Python.",
           time: "14h00"
         }
       }
