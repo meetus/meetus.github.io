@@ -130,7 +130,7 @@ module.exports = {
           text: ""
         },
         presentation: {
-          title: "OBS: tema por confirmar.",
+          title: "Licenciando a sua aplicação.",
           description: "",
           time: "13h00"
         }
