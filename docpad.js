@@ -204,12 +204,12 @@ module.exports = {
         name: "ADEIMA",
         logo: "themes/meetus/img/adeima.jpg",
         url: "https://www.facebook.com/pages/Associa%C3%A7%C3%A3o-dos-Estudades-Imetro-Adeima/166592990192970"
-      },
-      {
-        name: "AngoDev",
-        logo: "themes/meetus/img/angodev.jpg",
-        url: "http://www.angodev.com/"
       },*/
+      {
+        name: "MenosFios",
+        logo: "themes/meetus/img/menosfios.jpg",
+        url: "http://www.menosfios.com/"
+      },
       {
         name: "GDG Luanda",
         logo: "themes/meetus/img/gdgluanda.jpg",
