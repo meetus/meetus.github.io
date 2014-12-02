@@ -2,7 +2,7 @@
 <html itemscope itemtype="http://schema.org/Event">
 <head>
 
-  <title itemprop="name"><%= @conf.name %></title>
+  <title itemprop="name"><%= @conf.title %></title>
 
   <meta charset="utf-8">
   <meta name="author" content="<%= @conf.name %>">
@@ -20,8 +20,7 @@
   <!-- / FACEBOOK -->
 
   <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="<%= @getTheme() %>/img/apple-touch-icon.png">
-
+  
   <!-- STYLES -->
   <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/main.css">
   <!-- / STYLES -->
@@ -55,7 +54,7 @@
           </div>
           <div class="infoRight">
             <p>Telefones: 915 044 355 . 930 686 545 . 924 358 365<br>
-             Email: <a href="mailto:meet.us.angola@gmail.com">meet.us.angola@gmail.com</a></p>
+             Email: <a href="mailto:meetus@angodev.com">meetus@angodev.com</a></p>
           </div>
         </div>
       </div>
