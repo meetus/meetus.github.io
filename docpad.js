@@ -10,9 +10,9 @@ module.exports = {
     // Conference info
     conf: {
       name: "Meet.us()",
+      title: "Meet.us() Angola - Encontro de desenvolvedores angolanos",
       description: "Evento criado por programadores para programadores com objectivo de aproximar os desenvolvedores angolanos.",
       date: "17 de Janeiro",
-      // If your event is free, just comment this line
       price: "Gratís",
       venue: "auditório da SISTEC",
       address: "Largo do ambiente, Luanda, Angola",
@@ -35,7 +35,7 @@ module.exports = {
     // Site info
     site: {
       theme: "meetus",
-      url: "http://meetus.github.io",
+      url: "http://meetus.angodev.com",
       googleanalytics: "UA-53892061-1"
     },
 
@@ -77,7 +77,7 @@ module.exports = {
         bio: "27 anos, formado em Engenharia Informática, programador a 10 anos. Responsável pelo departamento de Informática da SAPR e co-fundador da BCCL, Lda. Seu cérebro funciona como um scanner raio-x, não pára de pensar numa solução tecnológica qualquer e procura sempre entender como as coisas são formadas. Apaixonado pela vida, cuida de quem e daquilo que ama. Defende seus ideais e suas teorias. Criador do Dicionário Ngola Yetu, SendOut (Um dos vencedores do AAC 2014), Saldo Online e Kwanza Online.",
         company: "Instituto do Fomento Empresarial",
         link: {
-          href: "cgarcia@celiogarcia.com",
+          href: "mailto:cgarcia@celiogarcia.com",
           text: "email"
         },
         presentation: {
@@ -104,15 +104,15 @@ module.exports = {
       {
         name: "Nakassony Venâncio Bernardo",
         photo: "themes/meetus/img/nakassony.jpg",
-        bio: "",
-        company: "",
+        bio: "Mestrado em CyberSecurity (Ciencias da Computação) pela Universidade de Liverpool (Inglaterra), Engenheiro e Desenvolvedor de Software Senior na Merap Consulting (Java, PHP e JavaScript), professor universitário (UNIBELAS e ISPTEC) lecionando sobre tudo disciplinas de especialidade, criador do Framework Proweb (PHP), tem a computação como tradição familiar, apaixonado por hard code e criação de ferramentas próprias.",
+        company: "Merap Consulting",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "OBS: tema por confirmar.",
-          description: "",
+          title: "Componentização e Reuso com PHP e JavaScript.",
+          description: "KISS e DRY são dois termos muito importantes quando falamos de construção de sistemas informáticos, Keep It Simple (Mantenha a simplicidade) e Don't Repeat Yourself (Não seja repetitivo) são aspectos meios complexos de garantir, entretanto, a utilização de componentes (Ex: Frameworks) e padrões que permitam o reuso de forma correcta ajudam-nos a atingir este quesito, principalmente quando os componentes e padrões são construídos e aplicados por nós mesmos.",
           time: "11h20"
         }
       },
@@ -124,10 +124,10 @@ module.exports = {
         name: "Benone Marcos",
         photo: "themes/meetus/img/benone.jpeg",
         bio: "Analista. Introvertido sem remorso. Gamer orgulhoso. Empreendedor. Geek orgulhoso. Solucionador de problemas ao longo da vida. Ninja zombie Wannabe. Fanático da Internet. Defensor de mídia social. Hacker.",
-        company: "",
+        company: "TI Angola",
         link: {
-          href: "",
-          text: ""
+          href: "http://benone.org",
+          text: "site pessoal"
         },
         presentation: {
           title: "Licenciando a sua aplicação.",
@@ -142,7 +142,7 @@ module.exports = {
         company: "GDG Luanda, Centro Tecnológico Nacional",
         link: {
           href: "http://dizando.me",
-          text: "www"
+          text: "site pessoal"
         },
         presentation: {
           title: "Programação Genética e Machine Learning com Python e/ou Matlab",
@@ -156,12 +156,12 @@ module.exports = {
         bio: "Graduando em Engenharia da Computação(UFAL, Brasil) Programador Java incorrigível, trabalhou na Múltipla(Angola) como desenvolvedor Sênior(VB6), foi bolsista do NTI(Núcleo de Tecnologia e Informação) JEE Programador Júnior(UFAL), foi bolsista da RIM(Blackberry) Programador Júnior(C++), desenvolveu muitos projetos acadêmicos em JavaSE, no momento muito focado em Web Stack e PhoneGap, praticante de musculação nas horas vagas.",
         company: "Freelancer",
         link: {
-          href: "",
-          text: ""
+          href: "mailto:randy.quindai@gmail.com",
+          text: "email"
         },
         presentation: {
-          title: "Big Data",
-          description: "A Programação Genética (PG) é uma técnica de Machine Learning (ML) utilizada na resolução de problemas de optimização. Nesta palestra serão apresentados alguns algoritmos de PG e ML para a construção de soluções computacionais inteligentes para problemas locais com exemplos em Matlab e Python.",
+          title: "BigData, usando Hadoop e técnicas de Map Reduce com Apache Pig",
+          description: "",
           time: "15h00"
         }
       },
