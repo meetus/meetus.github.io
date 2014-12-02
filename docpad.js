@@ -123,7 +123,7 @@ module.exports = {
       {
         name: "Benone Marcos",
         photo: "themes/meetus/img/benone.jpeg",
-        bio: "",
+        bio: "Analista. Introvertido sem remorso. Gamer orgulhoso. Empreendedor. Geek orgulhoso. Solucionador de problemas ao longo da vida. Ninja zombie Wannabe. Fanático da Internet. Defensor de mídia social. Hacker.",
         company: "",
         link: {
           href: "",
