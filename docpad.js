@@ -68,9 +68,8 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Apresentação",
+        name: "Apresentação do evento por Jo Cognitivo",
         time: "09h00",
-        title: "Apresentação do evento por Jo Cognitivo"
       },
       {
         name: "Célio Garcia",
@@ -150,7 +149,26 @@ module.exports = {
           description: "A Programação Genética (PG) é uma técnica de Machine Learning (ML) utilizada na resolução de problemas de optimização. Nesta palestra serão apresentados alguns algoritmos de PG e ML para a construção de soluções computacionais inteligentes para problemas locais com exemplos em Matlab e Python.",
           time: "14h00"
         }
-      }
+      },
+      {
+        name: "Randy Ambrósio",
+        photo: "themes/meetus/img/randy.jpg",
+        bio: "Graduando em Engenharia da Computação(UFAL, Brasil) Programador Java incorrigível, trabalhou na Múltipla(Angola) como desenvolvedor Sênior(VB6), foi bolsista do NTI(Núcleo de Tecnologia e Informação) JEE Programador Júnior(UFAL), foi bolsista da RIM(Blackberry) Programador Júnior(C++), desenvolveu muitos projetos acadêmicos em JavaSE, no momento muito focado em Web Stack e PhoneGap, praticante de musculação nas horas vagas.",
+        company: "Freelancer",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "Big Data",
+          description: "A Programação Genética (PG) é uma técnica de Machine Learning (ML) utilizada na resolução de problemas de optimização. Nesta palestra serão apresentados alguns algoritmos de PG e ML para a construção de soluções computacionais inteligentes para problemas locais com exemplos em Matlab e Python.",
+          time: "15h00"
+        }
+      },
+      {
+        name: "Encerramento",
+        time: "16h00"
+      },
     ],
 
     realizacao: [
