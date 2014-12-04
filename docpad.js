@@ -87,7 +87,7 @@ module.exports = {
         }
       },
       {
-        name: "Osvaldo Mwanalezi",
+        name: "Osvaldo Júnior",
         photo: "themes/meetus/img/osvaldo.jpg",
         bio: "",
         company: "",
@@ -96,7 +96,7 @@ module.exports = {
           text: ""
         },
         presentation: {
-          title: "OBS: tema por confirmar.",
+          title: "Introdução ao Design Responsivo",
           description: "",
           time: "10h20"
         }
@@ -160,8 +160,8 @@ module.exports = {
           text: "email"
         },
         presentation: {
-          title: "BigData, usando Hadoop e técnicas de Map Reduce com Apache Pig",
-          description: "",
+          title: "BigData",
+          description: "BigData é o nome comercial para processamento de grande volume de informação, para tal usamos frameworks disponíveis para Java, Ruby, Python e Pipes(C++). O framework mais popular usado hoje é o Hadoop da Apache Software Foundation. Nesta palestra apresentaremos como utilizar essas ferramentas.",
           time: "15h00"
         }
       },
