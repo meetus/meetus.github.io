@@ -23,8 +23,8 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Brevemente",
-        link: "#"
+        text: "Inscrever-me",
+        link: "http://meetus.eventzilla.net/web/event?eventid=2139048366"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
