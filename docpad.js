@@ -97,7 +97,7 @@ module.exports = {
         },
         presentation: {
           title: "Criando sites para múltiplos dispositivos",
-          description: "Actualmente existe uma grande variedade de dispositivos, desde telemóveis simples aos smartphones, tablets, PC’s e outros. Todos estes dispositivos são usados aceder à web e Possuem características diferentes como resolução e tamanhos de telas. Nesta apresentação discutiremos sobre as metodologias de desenvolvimento de web sites que podem ser acessados por múltiplos dispositivos sem penalizar a experiência do usuário.",
+          description: "Actualmente existe uma grande variedade de dispositivos, desde telemóveis simples aos smartphones, tablets, PC’s e outros. Todos estes dispositivos são usados para aceder à web e possuem características diferentes como resolução e tamanho de tela. Nesta apresentação discutiremos sobre as metodologias de desenvolvimento de web sites que podem ser acessados por múltiplos dispositivos sem penalizar a experiência do usuário.",
           time: "10h20"
         }
       },
