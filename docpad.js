@@ -15,7 +15,7 @@ module.exports = {
       date: "17 de Janeiro",
       price: "Gratís",
       venue: "auditório da SISTEC",
-      address: "Largo do ambiente, Luanda, Angola",
+      address: "Largo do ambiente",
       city: "Ingombota",
       state: "Luanda"
     },
