@@ -107,6 +107,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "docpad.js",
+			"settings":
+			{
+				"buffer_size": 9243,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/layouts/default.html.eco",
+			"settings":
+			{
+				"buffer_size": 3012,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -177,7 +193,8 @@
 	"expanded_folders":
 	[
 		"/home/flowck/Documentos/Projectos/meetus",
-		"/home/flowck/Documentos/Projectos/meetus/src"
+		"/home/flowck/Documentos/Projectos/meetus/src",
+		"/home/flowck/Documentos/Projectos/meetus/src/layouts"
 	],
 	"file_history":
 	[
@@ -245,6 +262,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"em>",
+			"\"www\"",
 			"email",
 			"port",
 			"sponsors",
@@ -317,8 +336,69 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "docpad.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3306,
+								3306
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 72.0,
+						"translation.y": 1287.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/layouts/default.html.eco",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								780,
+								780
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/eco/Syntaxes/HTML (ECO).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

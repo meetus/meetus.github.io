@@ -23,8 +23,9 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Inscrever-me",
-        link: "http://meetus.eventzilla.net/web/event?eventid=2139048366"
+        text: "Inscrições encerradas!",
+        /*link: "http://meetus.eventzilla.net/web/event?eventid=2139048366"*/
+        link: "#"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -60,7 +61,7 @@ module.exports = {
       speakers: "ORADORES",
       schedule: "PROGRAMA",
       realizacao: "REALIZAÇÃO",
-      sponsors: "PATROCÍNIOS",
+      sponsors: "APOIOS",
       partners: "PARCEIROS"
       //contact: "CONTACTOS"
     },
@@ -123,7 +124,7 @@ module.exports = {
       {
         name: "Benone Marcos",
         photo: "themes/meetus/img/benone.jpeg",
-        bio: "Analista. Introvertido sem remorso. Gamer orgulhoso. Empreendedor. Geek orgulhoso. Solucionador de problemas ao longo da vida. Ninja zombie Wannabe. Fanático da Internet. Defensor de mídia social. Hacker.",
+        bio: "Gestor de projectos, atualmente diretor de infraestruturas de IT na indústria petrolífera. Fundador da TIangola, desenvolvedor do aOS, co-fundador da Associação de Software Livre - Angola",
         company: "TI Angola",
         link: {
           href: "http://benone.org",
@@ -181,16 +182,11 @@ module.exports = {
 
     // List of Sponsors
     sponsors: [
-      /*{
-        name: "SendOut",
-        logo: "themes/meetus/img/sendout.png",
-        url: "http://www.sendoutapp.com"
-      },
       {
-        name: "NgolaIT",
-        logo: "themes/meetus/img/ngolait.jpg",
-        url: "http://www.ngolait.co.ao"
-      }*/
+        name: "SISTEC",
+        logo: "themes/meetus/img/logotipoSistec1.png",
+        url: "http://www.sistec.co.ao"
+      }
     ],
 
     // List of Partners
