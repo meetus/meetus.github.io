@@ -132,7 +132,7 @@ module.exports = {
         },
         presentation: {
           title: "Licenciando a sua aplicação.",
-          description: "",
+          description: "Um dos fatores mais importante no ciclo de desenvolvimento é o contrato feito entre o desenvolvedor e o usuário. A escolha correcta da licença a ser aplicada ao seu produto, pode determinar desde o sucesso à legalidade da sua aplicação, direitos de uso e distribuição. Saiba como garantir os seus direitos de autor e garanta que o seu publico alvo tenha os direitos necessários para o uso correto da sua aplicação.",
           time: "13h00"
         }
       },
