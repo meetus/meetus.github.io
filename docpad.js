@@ -183,6 +183,11 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
+        name: "NgolaIT Soluções",
+        logo: "themes/meetus/img/ngolait.jpg",
+        url: "http://www.ngolait.co.ao"
+      },
+      {
         name: "SISTEC",
         logo: "themes/meetus/img/logotipoSistec1.png",
         url: "http://www.sistec.co.ao"
