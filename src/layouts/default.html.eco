@@ -22,6 +22,7 @@
   <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
   
   <!-- STYLES -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/main.css">
   <!-- / STYLES -->
 
@@ -35,9 +36,7 @@
 
     <!-- CONTENT -->
     <div class="content" id="content">
-      <div class="wrapper">
-        <%- @content %>
-      </div>
+      <%- @content %>
     </div>
     <!-- / CONTENT -->
 

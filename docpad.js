@@ -9,21 +9,21 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Meet.us()",
+      name: "Meet.us() Angola",
       title: "Meet.us() Angola - Encontro de desenvolvedores angolanos",
       description: "Evento criado por programadores para programadores com objectivo de aproximar os desenvolvedores angolanos.",
-      date: "17 de Janeiro",
-      price: "Gratís",
-      venue: "auditório da SISTEC",
-      address: "Largo do ambiente, Luanda, Angola",
-      city: "Ingombota",
+      date: "19 de Setembro",
+      price: "",
+      venue: "Auditório do ISUTIC",
+      address: "ISUTIC, Luanda, Angola",
+      city: "Rangel",
       state: "Luanda"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Inscrições encerradas!",
+        text: "Inscreva-se",
         /*link: "http://meetus.eventzilla.net/web/event?eventid=2139048366"*/
         link: "#"
     },
@@ -196,23 +196,13 @@ module.exports = {
 
     // List of Partners
     partners: [
-      /*{
-        name: "AEISPTEC",
-        logo: "themes/meetus/img/aeisptec.jpg",
-        url: "https://www.facebook.com/AEISPTEC"
-      },
-      {
-        name: "ADEIMA",
-        logo: "themes/meetus/img/adeima.jpg",
-        url: "https://www.facebook.com/pages/Associa%C3%A7%C3%A3o-dos-Estudades-Imetro-Adeima/166592990192970"
-      },*/
       {
         name: "MenosFios",
         logo: "themes/meetus/img/menosfios.jpg",
         url: "http://www.menosfios.com/"
       },
       {
-        name: "GDG Luanda",
+        name: "KiandaHUB",
         logo: "themes/meetus/img/gdgluanda.jpg",
         url: "http://gdgluanda.org"
       }

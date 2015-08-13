@@ -1,3 +1,252 @@
 @import "reset.less";
 @import "base.less";
-@import "theme.less";
+/*@import "theme.less";*/
+
+@import "_mixins.less";
+
+/* =============================================================================
+   MAIN LAYOUT
+   ========================================================================== */
+html {
+  background:#FFF;
+  font:normal normal 10px/1.2em 'Roboto', arial, sans-serif;
+  color:#777;
+}
+
+/* =============================================================================
+   BASIC STYLES
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
+
+/* =============================================================================
+   NAVIGATION
+   ========================================================================== */
+nav {background: #2b2b2b;}
+.nav-link {
+	color:#c9b400;
+	-webkit-transition: color .5s;
+	-moz-transition: color .5s;
+	-ms-transition: color .5s;
+	transition: color .5s;
+}
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current {color:#fff;}
+
+/* =============================================================================
+   HEADER
+   ========================================================================== */
+.header {
+  height: 650px;
+  background-image: url('../img/cover-2.jpg');
+  background-color: #2b2b2b;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+
+.header .wrapper{
+	top: 50%;
+	transform: translateY(-50%);
+	/*position: fixed;*/
+}
+
+.logo-link, .tagline, .call-action-area .price {
+  color:#fff;
+  text-shadow: 1px 2px 1px rgba(0,0,0,.3);
+}
+.tagline {font-weight: 100;}
+.call-action-area .price {color:#ead300;}
+.call-action-area .call-action-link, .btn {
+  background-color: #ead300;
+  color:#555;
+  border-radius: 2px;
+}
+
+.github-link {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 11;
+}
+
+.github-link img {
+  border: 0;
+}
+
+/* =============================================================================
+   CONTENT
+   ========================================================================== */
+.content a {color:#f0a303;}
+.content a:hover, .content a:focus {
+  color:#fddd52;
+  text-decoration: underline;
+}
+
+.section-title{
+	text-align: center;
+	color:#f0a303;
+	font-size: 4em;
+}
+
+/* =============================================================================
+   ABOUT
+   ========================================================================== */
+.about {
+  background:#fff;
+  box-shadow: 0px 1px 3px 0px #DDD;
+}
+
+/* =============================================================================
+   LOCATION
+   ========================================================================== */
+.location-area {
+  background: #e7e7e7;
+  border: 1px solid #ccc;
+  height: 400px;
+  box-shadow: 0px 1px 3px 0px #DDD;
+}
+
+/* =============================================================================
+   SPEAKER
+   ========================================================================== */
+.speaker-photo .photo {
+  border-radius: 50%;
+  .transition(all 0.3s ease-out);
+}
+.speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
+.speech-time {
+  color:#fff;
+  background:#f0a303;
+  border-radius: 2px;
+}
+
+/* =============================================================================
+   SCHEDULE
+   ========================================================================== */
+.schedule-tbl {
+  background:#fff;
+  box-shadow: 0px 1px 3px 0px #DDD;
+}
+.schedule-tbl table {background:#fff;}
+.schedule-tbl td, .schedule-tbl th {border-bottom:1px solid #e7e7e7;}
+.schedule-tbl tbody tr:nth-child(2n+1) {background:#f6f6f6;}
+.schedule-tbl th {color:#2b2b2b;}
+.schedule-tbl .speaker-photo .photo {box-shadow: 0 0 0 1px rgba(0,0,0,.3);}
+.speakers-company {color:#999;}
+.schedule-slot {color:#2b2b2b;}
+.schedule-tbl tbody tr:hover {background:#fffde1;}
+.schedule-coffee, .schedule-closing, .schedule-lunch, .schedule-other {color:#214f87;}
+
+/* =============================================================================
+   SPONSORS
+   ========================================================================== */
+.sponsor--link, .partner-link {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+}
+.sponsor--link:hover, .sponsor--link:focus, .partner-link:hover, .partner-link:focus {border-color: #f0a303;}
+
+
+/* =============================================================================
+   CONTACT
+   ========================================================================== */
+.wufoo input[type=text], .wufoo input[type=email], .wufoo textarea{
+  color: #777;
+  border: 1px solid #e7e7e7;
+  background: #fff;
+  border-radius: 4px;
+}
+.wufoo input[type=text]:focus, .wufoo input[type=email]:focus, .wufoo textarea:focus {border-color:#aaa;outline:0;}
+
+header#header{
+  display: none;
+}
+
+/* =============================================================================
+   FOOTER
+   ========================================================================== */
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #2b2b2b;
+  background-image: url('../img/congruent_outline.png');
+  box-shadow: inset 0px 5px 2px 0px #333;
+}
+
+footer .logoBottom{
+  width: 55px;
+  float: left;
+  margin: 14px;
+}
+
+footer .logoBottom img{
+  width: 100%;
+  height: 100%;
+}
+
+footer .info{
+  color: #FFF;
+  height: 50px;
+  font-size: 8px;
+  margin-top: 30px;
+  float: left;
+}
+
+footer .info a{
+  color: #c9b400;
+}
+
+footer .infoLeft{
+  float: left;
+}
+
+footer .infoRight{
+  float: right;
+  margin-left: 10px;
+}
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width : 1024px) {
+  .header {
+    background-size: auto 100%;
+  }
+}
+
+@media only screen and (max-width : 540px) {
+  footer{
+    height: 146px;
+  }
+
+  footer .logoBottom {
+    margin: 30px 10px 0 0;
+  }
+
+  footer .infoLeft {
+    float: none;
+  }
+
+  footer .infoRight {
+    float: none;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  /* speakers */
+  .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
+  .speech-title {font-weight: bolder;}
+  .speech-time {
+    color:#2b2b2b;
+    background: transparent;
+    font-weight: bolder;
+  }
+  .github-link { display: none; }
+}
